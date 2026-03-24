@@ -4,7 +4,7 @@ export default function ProjectSideBar({
   onStartAddProject,
   projects,
   onSelectProject,
-  selectedprojectId,
+  selectedProjectId,
 }) {
   return (
     <>
@@ -20,7 +20,7 @@ export default function ProjectSideBar({
             let cssClasses =
               '"w-full text-left px-2 py-2 rounded-sm -my-1 hover:text-stone-200 hover:bg-stone-800"';
 
-            if (project.id === selectedprojectId) {
+            if (project.id === selectedProjectId) {
               cssClasses += " bg-stone-800 text-stone-200";
             } else {
               cssClasses += " text-stone-400";
